@@ -21,8 +21,8 @@ public class BinaryTree {
         return root;
     }
 
-    public void insert(int key) {
-        root = insertRec(root, key);
+    public void insert(int val) {
+        root = insertRec(root, val);
     }
 
     public Node getRoot() {
